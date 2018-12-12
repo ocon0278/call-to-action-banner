@@ -25,9 +25,11 @@ html {
   max-width: 45em;
 }
 
-h2 {
+.text h2 {
   font-family: "Roboto Condensed";
   font-size: 3rem;
+  max-width: 7em;
+  margin: 0;
 }
 
 .img-flex {
@@ -40,7 +42,7 @@ h2 {
 }
 
 .text {
-  width: 50%;
+  width: 60%;
   font-size: 1.5rem;
 }
 
@@ -48,20 +50,28 @@ body {
   margin: 0;
 }
 
-a {
-  background-color: black;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
+.btn {
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  border-style: solid;
   display: inline-block;
-  font-size: 1.5rem;
+  text-decoration: none;
+  font-size: 1.125rem;
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
 }
 
-.btn {
-  border-radius: 5px;
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
 
 .btn-big {
-  max-width: 50%;
+  font-size: 1.5rem;
+}
+
+.text p {
+  margin: .5rem 0 1.2rem;
 }

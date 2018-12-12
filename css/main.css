@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.5 Roboto, sans-serif;
 }
 
 *, *::before, *::after {
@@ -23,6 +24,8 @@ html {
   font-family: Roboto;
   width: 100%;
   max-width: 45em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .text h2 {
@@ -30,6 +33,7 @@ html {
   font-size: 3rem;
   max-width: 7em;
   margin: 0;
+  line-height: 1.2;
 }
 
 .img-flex {
@@ -38,12 +42,11 @@ html {
 }
 
 .icon {
-  width: 30%;
+  width: 33%;
 }
 
 .text {
-  width: 60%;
-  font-size: 1.5rem;
+  width: 50%;
 }
 
 body {
@@ -74,4 +77,5 @@ body {
 
 .text p {
   margin: .5rem 0 1.2rem;
+  font-size: 1.5rem;
 }
